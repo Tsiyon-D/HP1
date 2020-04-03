@@ -1,0 +1,115 @@
+body
+{
+background-color: #f2ed6f;
+}
+nav {
+    border-bottom: 1px  black;
+}
+.objective ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.objective {
+    display: inline-block;
+}
+
+.objective a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.body-img
+{
+  opacity: 0.2;
+  position: absolute;
+  width: 100%;
+}
+/*main div */
+.main
+{
+  position: absolute;
+  left: 0;
+}
+/*About the owners div Meron*/
+.owner-Mer
+{
+  width:auto 50% auto 50%;
+  margin: 20px auto 50px 20px;
+}
+.meron-img
+{
+ width: 20%;
+ float: left;
+ padding-right: 20px;
+}
+.meron-p
+{
+  font-family: 'Roboto Slab', serif;
+  line-height: 2;
+  width: 50rem;
+  text-decoration-style: solid;
+}
+.h1-Mer
+{
+  font-family: 'Sanchez', serif;
+}
+/*About the owners div Tofik*/
+.owner-Tofik
+{
+  margin: 100px auto 50px 300px;
+
+}
+.tofik-img
+{
+  width: 20%;
+  float: left;
+  padding: 20px;
+}
+.tofik-p
+{
+  font-family: 'Roboto Slab', serif;
+  line-height: 2;
+  width: 50rem;
+  text-decoration-style: solid;
+}
+.h1-tof
+{
+  font-family: 'Sanchez', serif;
+}
+
+/*Contact us */
+.contact-us
+{
+  background-color: #1b7fbd;
+  height: 100px;
+
+
+}
+
+a
+{
+  padding: 20px;
+  margin-top: 400px;
+  text-decoration-line: none;
+  position: relative;
+  top: 2rem;
+}
+a:hover
+{
+  color: #f2f4f6;
+}
+.contact-us-p
+{
+  width: 200px;
+  position: relative;
+  left: 620px;
+  top: 30px;
+  font-family: 'Sanchez', serif;
+  font-size: 0.7rem;
+  color: #f2f4f6;
+}

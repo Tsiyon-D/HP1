@@ -1,0 +1,3 @@
+images  - will contain all the images
+sytles  - will contain all css 
+scripts - will contain javascript
